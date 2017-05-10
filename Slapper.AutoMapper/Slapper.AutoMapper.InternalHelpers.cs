@@ -505,7 +505,14 @@ namespace Slapper
                             if (isEnumerableType)
                             {
                                 var innerType = memberType.GetGenericArguments().FirstOrDefault() ?? memberType.GetElementType();
-                                nestedInstance = MapCollection(innerType, newDictionary, nestedInstance, instance);
+                                if (innerType == null)
+                                {
+                                    nestedInstance = null;
+                                }
+                                else
+                                {
+                                    nestedInstance = MapCollection(innerType, newDictionary, nestedInstance, instance);
+                                }
                             }
                             else
                             {
