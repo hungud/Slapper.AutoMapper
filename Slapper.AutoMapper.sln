@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slapper", "Slapper.AutoMapper\Slapper.csproj", "{A3A6ABBF-8C42-4945-BB8B-804123E45B2D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slapper.Tests", "Slapper.AutoMapper.Tests\Slapper.Tests.csproj", "{DB57364B-6EE2-46C0-837E-B43F53CEEFA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{603F2E80-A8ED-4B77-B447-672DFC55CE18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +23,10 @@ Global
 		{DB57364B-6EE2-46C0-837E-B43F53CEEFA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB57364B-6EE2-46C0-837E-B43F53CEEFA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB57364B-6EE2-46C0-837E-B43F53CEEFA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{603F2E80-A8ED-4B77-B447-672DFC55CE18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{603F2E80-A8ED-4B77-B447-672DFC55CE18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{603F2E80-A8ED-4B77-B447-672DFC55CE18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{603F2E80-A8ED-4B77-B447-672DFC55CE18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
